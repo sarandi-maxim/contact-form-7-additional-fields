@@ -313,7 +313,7 @@ function wpcf7_advanced_datalist_form_tag_handler( $tag ) {
 
 	foreach ( $countries as $key => $value ) {
 		$item_atts = array(
-			'value' => $key,
+			'value' => $value,
 		);
 
 		$item_atts = wpcf7_format_atts( $item_atts );
